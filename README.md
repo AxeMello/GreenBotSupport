@@ -1,6 +1,8 @@
 # GreenBotSupport
 📁 Support bot for Green-bot's server
+
 Feel free to add a star to this projet to support us!
+
 Join our [Discord Server](https://discord.gg/SQsBWtjzTv) to see the latest news!
 
 # 🚀 Features
