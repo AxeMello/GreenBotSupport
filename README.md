@@ -10,7 +10,7 @@ Join our [Discord Server](https://discord.gg/SQsBWtjzTv) to see the latest news!
 + Reactions roles <br>
 + / commands <br>
 
-#📁 Installation
+# 📁 Installation
 
 **Step 1:** Download the files on your computer
 
