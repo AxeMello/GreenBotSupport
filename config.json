@@ -1,0 +1,61 @@
+{
+    "token": "XXXXXX",
+    "status": "for help | green-bot.app",
+    "dashboard": "https://green-bot.app",
+    "enable_slash": true,
+    "owners": ["688402229245509844", "757309249440186460", "772850214318768138", "776416380530327603"],
+    "embed_content": {
+        "title": "Green-Bot Support",
+        "color": "#0d8c2f",
+        "thumbnail": true,
+        "thumbnail_url": "https://cdn.discordapp.com/avatars/783708073390112830/f4aabacb3667ba1831d3ca5f7b2e486d.webp?size=512",
+        "question_1": "The bot isn't responding to my commands",
+        "question_2": "How to invite Green-bot",
+        "question_3": "I want to give acces to admin commands to people who have a specific role",
+        "question_4": "The music isn't working",
+        "question_5": "I have voted but the bot saids that i don't voted",
+        "question_6": "How to setup DJ Role",
+        "question_7": "How can i purchase the premium?",
+        "question_8": "How to use the dashboard?",
+
+        "question_10": "How to get a 24/7 playback?"
+    },
+    "responses": {
+        "response_1": "If you made a command and after 5 seconds you didn't get any reply, check that:\n`1`. The bot has the `Send messages` and `Embed links` permissions\n`2`. Green-bot can wiew the current channel and send messages\n`3`. Make you sure that you are using the good prefix (ping the bot)\nIf your problem isn't solved, click on the red button below",
+        "response_2": "To invite Green-bot, click on this link : https://green-bot.app/invite",
+        "response_3": "To get acces to admin commands at users who have a specific role, you must go on the dashboard an select a server. Then, select the role that you want\nhttps://cdn.discordapp.com/attachments/812577667462201345/869253919983951914/unknown.png",
+        "response_4": "If you have made a music command but you have an error or there is no sound, check that\n`1`. Green bot has permission to connect to the channel and talk\n`2`. You are not mute\n`3`. Try to stop the music and play another song.\nIf your problem persist, click on the red button below",
+        "response_5": "You have to have a vote on the last 12h to do some commands. If you really voted, a message will be sent in <#896394097227595836>",
+        "response_6": "Do: `{prefix}setdj @role`",
+        "response_7": "You can click [here](https://www.patreon.com/GreenBotDiscord) to get more infomations",
+        "response_8": "To go on the dashboard, click on this [link](https://green-bot.app).\n`1`. Click on the \"Login\" button.\n`2`. You will be redirected. Click on accept\n`3`. Select a guild in the list and start setup the bot !!",
+        "response_10": "If you don't want Green-bot to leave your voice channel when it is empty, you can enable the **24/7** mode.\nYou can enable it with the `24/7` command.\nTo get acces to this command, you must [vote](https://top.gg/bot/783708073390112830/vote) the bot"
+    },
+    "roles": {
+        "role_1": {
+            "id": "895703674439991316",
+            "add": "You succesfully got the `🛑 - Outages` role.",
+            "remove": "You have successfully lost the role `🛑 - Outages`."
+        },
+        "role_2": {
+            "id": "811656019473989723",
+            "add": "You succesfully got the `🔔 - Updates` role.",
+            "remove": "You have successfully lost the role `🔔 - Updates`."
+        },
+        "role_3": {
+            "id": "811655926636740688",
+            "add": "You succesfully got the `🎉 - Giveaways ping` role.",
+            "remove": "You have successfully lost the role `🎉 - Giveaways ping`."
+        },
+        "role_4": {
+            "id": "896396438311927849",
+            "add": "You succesfully got the `✨ - Vote reminder` role.",
+            "remove": "You have successfully lost the role `✨ - Vote reminder`."
+        }
+    },
+    "assistance_channel_id": "895695290357678152",
+    "desk_channel_id": "869249318534651995",
+    "roles_channel_id": "796384958889197608",
+    "assistance_role_id": "895695434033553409",
+    "administrator_role_id": "859417657038864424"
+}
