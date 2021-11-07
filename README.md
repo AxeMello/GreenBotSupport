@@ -10,12 +10,12 @@ Join our [Discord Server](https://discord.gg/SQsBWtjzTv) to see the latest news!
 + Reactions roles <br>
 + / commands <br>
 
-**📁 Installation**
+#📁 Installation
 
-Step 1: Download the files on your computer
+**Step 1:** Download the files on your computer
 
-Step 2: Open a new terminal and do `npm i`
+**Step 2:** Open a new terminal and do `npm i`
 
-Step 3: Complete the config.json file
+**Step 3:** Complete the config.json file
 
-Step 4: Do `npm i` and enjoy your bot!
+**Step 4:** Do `npm i` and enjoy your bot!
