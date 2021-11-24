@@ -1,5 +1,5 @@
 # GreenBotSupport
-📁 Support bot for Green-bot's server
+📁 Support bot for [Green-bot's server](https://discord.gg/SQsBWtjzTv)
 
 Feel free to add a star to this projet to support us!
 
