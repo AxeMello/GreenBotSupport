@@ -1,35 +1,37 @@
 {
-    "token": "XXXXXX",
+    "token": "BOT_TOKEN",
     "status": "for help | green-bot.app",
     "dashboard": "https://green-bot.app",
     "enable_slash": true,
-    "owners": ["688402229245509844", "757309249440186460", "772850214318768138", "776416380530327603"],
+    "owners": ["688402229245509844", "757309249440186460", "772850214318768138"],
     "embed_content": {
         "title": "Green-Bot Support",
         "color": "#0d8c2f",
         "thumbnail": true,
         "thumbnail_url": "https://cdn.discordapp.com/avatars/783708073390112830/f4aabacb3667ba1831d3ca5f7b2e486d.webp?size=512",
         "question_1": "The bot isn't responding to my commands",
-        "question_2": "How to invite Green-bot",
-        "question_3": "I want to give acces to admin commands to people who have a specific role",
+        "question_2": "How to add the bot on my server?",
+        "question_3": "How can I define a DJ role to prevent everyone being able to manage the music?",
         "question_4": "The music isn't working",
         "question_5": "I have voted but the bot saids that i don't voted",
-        "question_6": "How to setup DJ Role",
-        "question_7": "How can i purchase the premium?",
-        "question_8": "How to use the dashboard?",
+        "question_6": "I want to restrict Green-bot to only some voice/text channels",
+        "question_7": "How can I purchase the premium and wich perks do i get?",
+        "question_8": "How can I play my spotify playlist",
 
-        "question_10": "How to get a 24/7 playback?"
+        "question_9": "How to get a **24/7** playback?",
+        "question_10": "The bot **can't join** my voice channel"
     },
     "responses": {
-        "response_1": "If you made a command and after 5 seconds you didn't get any reply, check that:\n`1`. The bot has the `Send messages` and `Embed links` permissions\n`2`. Green-bot can wiew the current channel and send messages\n`3`. Make you sure that you are using the good prefix (ping the bot)\nIf your problem isn't solved, click on the red button below",
-        "response_2": "To invite Green-bot, click on this link : https://green-bot.app/invite",
-        "response_3": "To get acces to admin commands at users who have a specific role, you must go on the dashboard an select a server. Then, select the role that you want\nhttps://cdn.discordapp.com/attachments/812577667462201345/869253919983951914/unknown.png",
-        "response_4": "If you have made a music command but you have an error or there is no sound, check that\n`1`. Green bot has permission to connect to the channel and talk\n`2`. You are not mute\n`3`. Try to stop the music and play another song.\nIf your problem persist, click on the red button below",
-        "response_5": "You have to have a vote on the last 12h to do some commands. If you really voted, a message will be sent in <#896394097227595836>",
-        "response_6": "Do: `{prefix}setdj @role`",
-        "response_7": "You can click [here](https://www.patreon.com/GreenBotDiscord) to get more infomations",
-        "response_8": "To go on the dashboard, click on this [link](https://green-bot.app).\n`1`. Click on the \"Login\" button.\n`2`. You will be redirected. Click on accept\n`3`. Select a guild in the list and start setup the bot !!",
-        "response_10": "If you don't want Green-bot to leave your voice channel when it is empty, you can enable the **24/7** mode.\nYou can enable it with the `24/7` command.\nTo get acces to this command, you must [vote](https://top.gg/bot/783708073390112830/vote) the bot"
+        "response_1": "If you made a command and after 5 seconds you didn't get any reply, check that:\n`1`. The bot has the `Send messages` and `Embed links` permissions\n`2`. Green-bot can wiew the current channel and send messages\n`3`. Make you sure that you are using the good prefix (ping the bot)\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!",
+        "response_2": "If you want to get Green-bot in your server, click [this](https://green-bot.app/invite) link.\n\nGreen-bot asks for admin perms because else you will waste a lot of time with permissions but [here's a link](https://discord.com/oauth2/authorize?client_id=783708073390112830&scope=bot&permissions=20016336) with basic perms\n\nIf you want to get other Green-bots, check the [website](https://green-bot.app/commands)\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!",
+        "response_3": "You can get informations about how to define the DJ role and how it works here:\nhttps://guide.green-bot.app/configuration/setup-the-dj-role\nYou can also setup wich commands are dj with the `djcommands` command\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!",
+        "response_4": "If you have made a music command but you have an error or there is no sound, check that\n`1`. Green bot has permission to connect to the channel and talk\n`2`. You are not mute\n`3`. Try to stop the music and play another song.\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!",
+        "response_5": "You have to have a vote on the last 12h to do some commands. If you really voted, a message will be sent in <#896394097227595836>\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!",
+        "response_6": "Check the following articles: \nhttps://guide.green-bot.app/configuration/restrict-the-bot-to-only-some-text-channels\n https://guide.green-bot.app/configuration/restrict-the-bot-to-only-some-voice-channels\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!",
+        "response_7": "Green-bot's main features are free but we need some money to maitain the bot!\n\n__Premium perks__\n-Disable track announcement\n-Access more filters\n-No need to vote everyday\n-Access to the premium bot\n-An amazing role in this server to see how cool you are 😎\n\nYou can purchase the premium on our [patreon page](https://www.patreon.com/GreenBotDiscord)\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!",
+        "response_8": "First, you need to get the Url of your playlist. You can check our [Documentation](https://guide.green-bot.app/spotify/)\n\nWhen you have the link of your playlist, join a voice channel and type `*play link`. Don't forget to replace link by your link.\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!",
+        "response_9": "If you don't want Green-bot to leave your voice channel when it is empty, you can enable the **24/7** mode.\nYou can enable it with the `24/7` command.\nTo get acces to this command, you must [vote](https://top.gg/bot/783708073390112830/vote) the bot\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!",
+        "response_10": "If the bot saids that he can't join our voice channel, check it: \n\n **1. The bot has the correct permissions**\n To join your voice channel, Green-bot must have the `Connect` permission and `Speak` to play your music. Make sure that he can view your voice channel. The following image shows the required permissions. \n\n **2. Check that you are in a voice channel**\n You have to be in a voice channel to make to bot joining a voice channel.\n\nIf your problem isn't solved, click on the \"Need help\" button below and our helper team will help you!"
     },
     "roles": {
         "role_1": {
@@ -57,5 +59,17 @@
     "desk_channel_id": "869249318534651995",
     "roles_channel_id": "796384958889197608",
     "assistance_role_id": "895695434033553409",
-    "administrator_role_id": "859417657038864424"
+    "administrator_role_id": "859417657038864424",
+
+
+    "status_channel_id": "924765644094836776",
+    "botIDs": ["783708073390112830", "902201674263851049", "906246223504240641", "913065900125597706", "891706506750349342", "901466922820988968"],
+    "bots": {
+        "greenBot": "783708073390112830",
+        "greenBot2": "902201674263851049",
+        "greenBot3": "906246223504240641",
+        "greenBot4": "913065900125597706",
+        "greenBotPremium": "891706506750349342",
+        "greenBotChan": "901466922820988968"
+    }
 }
