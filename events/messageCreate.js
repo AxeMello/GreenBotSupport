@@ -208,8 +208,8 @@ message.guild.channels.cache.get("812577667462201345").send({
             embeds: [{
                 color: "#3A871F",
 
-                title: "Please ask your question directly",
-                description: "Hello! Please ask directly your question so we are not wasting our time! Thanks!",
+                title: "Please ask your question straight away",
+                description: "Hello! Please ask your question straight away, so that we are not wasting our time! Thank you!",
 
             }]
         })
