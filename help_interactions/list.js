@@ -76,6 +76,19 @@ module.exports = {
                     description: "The bot is currently having an outage. Our dev team should be working on it. We will send a message in <#948902189370318870> once it's fixed!"
                 }]
             }
+        },
+        {
+            name: "restart",
+            aliases: ["down", "off"],
+            triggers: ["bot restarting, check status"],
+            message: {
+                embeds: [{
+                    color: "#3A871F",
+                    author: { name: "Server Helper | Faq #7 ", icon_url: "https://cdn.discordapp.com/avatars/894261461575168071/38443eed8bbab6c221b64d0af8f99b38.png?size=4096" },
+                    title: "The bot is currently restarting",
+                    description: "The bot is being restarted. This may take upto an hour depending on your server, make sure to check <#948902189370318870> if its restarting!"
+                }]
+            }
         }
     ]
 }
